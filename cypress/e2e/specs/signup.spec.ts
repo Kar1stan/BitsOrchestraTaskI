@@ -7,7 +7,7 @@ describe('Task I', () => {
   })
 
   it('Should test Google form with valid credentials', () => {
-    // link to form in the task document doesn't work!
+    // link to form in the task document doesn't work for automation!
     GoogleFormPage.clickProccedBtnEng()
     GoogleFormPage.fillFirstName("terlivanger")
     GoogleFormPage.fillLastName("makoren")
@@ -16,7 +16,7 @@ describe('Task I', () => {
   })
 
   it('Should test Google form with invalid credentials', () => {
-    // link to form in the task document doesn't work!
+    // link to form in the task document doesn't work for automation!
     GoogleFormPage.clickProccedBtnEng()
     GoogleFormPage.fillLastName("makoren")
     GoogleFormPage.clickProccedBtn()
